@@ -1,0 +1,95 @@
+@media only screen and (max-width: 600px) {
+  section {
+    padding: 0;
+  }
+  header {
+    flex-direction: row-reverse;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  header .logo {
+    width: 40px;
+  }
+  header .menu{
+    display:block;
+    position: relative;
+    left: -25%;
+    padding-top: 2px;
+  }
+  header #close{
+    margin-top: 2px;
+    display: none;
+    margin-right: 55%;
+  }
+  header #open{
+    display: block;
+    margin-right: 55%;
+  }
+  header #menu-item {
+    display: block;
+    padding: 0;
+    transform: translate(-125% , 30%);
+    text-align: center;
+  }
+  header ul {
+    transition: all 0.4s ease-out;
+    background-color: #017143;
+    width: 100px;
+   border-radius: 0 10px 10px 0;
+  }
+  header ul li a {
+    margin-left: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+  header .logoText {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 33%;
+  }
+  .content {
+    flex-direction: column-reverse;
+  }
+  .content .imgBox {
+    padding: 0;
+    transform: translate(15%, -25%);
+  }
+  .content .imgBox img {
+    max-width: 150px;
+  }
+  .content .textBox {
+    width: 100%;
+    margin-left: 50px;
+    transform: translateY(-20%);
+    text-align: center;
+  }
+  .content .textBox h2 {
+    font-size: 25px;
+  }
+  .content .textBox p {
+    font-size: 13px;
+    text-align: start;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .content .textBox h2 span {
+    color: #fff;
+  }
+  .content .textBox a {
+    margin-top: 20px;
+    color: #333;
+    background-color: #fff;
+  }
+  .thumb li img {
+    max-width: 50px;
+  }
+  .social li a {
+    transform: scale(0.4);
+    margin: 0;
+  }
+  
+
+}

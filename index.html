@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <!-- main css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Mobile css  -->
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <title>StarBucks | AliMordapour</title>
+  </head>
+  <body>
+    <section>
+      <div id="circle"></div>
+      <header>
+        <a href="#">
+          <img src="./img/logo.png" class="logo" alt="logo.png" />
+        </a>
+        <div class="logoText">
+          <h1>starbucks</h1>
+        </div>
+        <a href="#" class="menu" id="open"><img src="./img/Hamburger_icon.svg.png" alt=""></a>
+        <a href="#" class="menu" id="close"><img src="./img/close.png" alt=""></a>
+        <ul id="menu-item">
+            <li><a href="#">home</a></li>
+            <li><a href="#">menu</a></li>
+            <li><a href="#">what's new</a></li>
+            <li><a href="#">content</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>It's Not Just a Coffee <br />It's <span>StartBucks</span></h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
+            delectus aut illo voluptates placeat tempore expedita vitae
+            doloremque magni doloribus? Repellendus sed dolore fugiat inventore
+            at cum consequuntur asperiores quae?
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+          <img src="./img/img1.png" alt="image" id="starbucks" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./img/thumb1.png"
+            onclick="imgSlider('./img/img1.png') ;changeColor('#017143')"
+            alt="thumb"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/thumb2.png"
+            onclick="imgSlider('./img/img2.png') ;changeColor('#E3ADA7')"
+            alt="thumb"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/thumb3.png"
+            onclick="imgSlider('./img/img3.png') ;changeColor('#d752b1')"
+            alt="thumb"
+          />
+        </li>
+      </ul>
+      <ul class="social">
+        <li>
+          <a href="#"><img src="./img/facebook.png" alt="social" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./img/twitter.png" alt="social" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./img/instagram.png" alt="social" /></a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- main js  -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
